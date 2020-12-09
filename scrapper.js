@@ -10,6 +10,8 @@ request(
 
       //   common selector for span tag
       const selectors = $(".lbl-licitacao");
+
+      
       //   console.log(selectors.html()); log the html tag of the element
 
       // const output=selectors.find('span').text()
@@ -19,8 +21,8 @@ request(
       $(".lbl-licitacao ").each((i, el) => {
         const item = $(el).text();
 
-        //log all the the datas along with the values in a console
-        console.log(item);
+        //log all the the data along with the values in a console
+        console.log(item); //final data
       });
     }
   }
